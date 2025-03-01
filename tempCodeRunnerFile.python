@@ -1,0 +1,4 @@
+from textblob import TextBlob
+text = "This is a simple test. TextBlob should work without errors."
+blob = TextBlob(text)
+print(blob.sentiment)
